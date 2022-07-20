@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+}
+  .main {
+    background-color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  #first_id,
+  #second_id,
+  #thir_id,
+  #fourth_id {
+    margin-top: 61px;
+  }
+  #head_main {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+  }
+  .head_img > img {
+    width: 150px;
+    margin-right: 100px;
+  }
+  /* header_sec */
+  .head_sec > span {
+    font-size: 19px;
+    color: grey;
+    padding-right: 30px;
+  }
+  span .drop_on {
+    font-size: 19px;
+    color: grey;
+    padding-right: 30px;
+    position: relative;
+  }
+  .head_sec > span > img {
+    width: 10px;
+    margin-left: 5px;
+  }
+  /* header_thir */
+  .head_thir {
+    margin-left: auto;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .head_thir > span {
+    padding-right: 10px;
+    font-weight: 700;
+  }
+  .head_thir > span > img {
+    width: 10px;
+    margin-left: 2px;
+  }
+  .head_thir > button{
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(10, 136, 231);
+    cursor: pointer;
+  }
+  /* button :hover{
+    color: blue;
+    width: 140px;
+  } */
+
+  
+

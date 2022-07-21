@@ -1,0 +1,209 @@
+body{
+    background-color: #044a75;
+}
+#logo-img{
+    width: 225px;
+    height: 82px;
+}
+#logo1{
+    width: 21%;
+    height: 60px;
+    margin-top: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#signUp_body {
+    width: 45%;
+   height: 600px;
+    
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+}
+.heading_005 {
+    color: #091E3F;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.heading_006 {
+    color: #3C4858;
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+#signup {
+    padding-left: 140px;
+    padding-top: 60px;
+   padding-bottom: 50px;
+}
+
+#signup >p > label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3C4858;
+    font-family: Roboto,sans-serif ;
+    
+}
+#email{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    height: 36px;
+    width: 353px;
+    border-radius: 3px;
+    border: 1px solid #C0CCDA;
+}
+ #password {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    height: 36px;
+    width: 353px;
+    border-radius: 3px;
+    border: 1px solid #C0CCDA;
+}
+#submit01{
+    font-size: 16px;
+    background-color: #007CD9;
+    color: white;
+    border: 0px solid;
+    
+}
+.googleButton{
+    border: 1px solid #3C4858;
+    background-color: transparent;
+    margin-top: 0px;
+    position: relative;
+    top: -20px;
+    right: -34px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.applebutton{
+    border: 1px solid #3C4858;
+    background-color: transparent;
+    margin-top: 0px;
+    position: relative;
+    top: -20px;
+    right: -34px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.google_icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: -147px;
+    top: -12px;
+}
+.apple_icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: -147px;
+    top: -12px;
+}
+.or {
+    position: relative;
+    top: -8px;
+    right: 0px;
+}
+#googleSign ,#appleSign {
+    padding-bottom: 30px;
+    
+}
+
+.submit {
+    height: 40px;
+    width: 360px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 32px;
+    text-align: center;
+}
+#submitb{
+  text-align:center
+
+}
+#password {
+    margin-bottom: 10px;
+}
+.first_icon {
+    margin-top: 40px;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+}
+.icons001 {
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    
+}
+
+#flex_body {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.line_01,.line_02{
+    width: 150px;
+    height: 1px;
+    background-color: #69727e;
+}
+.googleSign {
+    margin-top: 10px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.google_div {
+    position: relative;
+    left: -63px;
+    bottom: -20px;
+}
+#desc-text {
+    margin-top: 85px;
+    margin-left: -10px;
+    width: 94%;
+}
+
+#bottom_link {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+@media only screen and (max-width: 992px) {
+    #flex_body {
+        display: flex;
+        flex-direction: column;
+    }
+    #signUp {
+        margin: auto;
+    }
+    #details_signUp {
+        margin: auto;
+    }
+    #bottom_link {
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #desc-text {
+        padding-bottom: 40px;
+    }
+} 

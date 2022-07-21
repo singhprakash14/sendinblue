@@ -1,0 +1,175 @@
+
+*{
+    padding:0px ;
+    margin: 0px;
+}
+body{
+    background-color:#044a75; ;
+}
+#logo {
+   
+    padding-top: 10px;
+    width: 21%;
+    height: 60px;
+    margin-top: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+    
+    
+   
+}
+ h2{
+    color: white;
+    margin: 10px;
+
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+.logo_img img{
+    max-width: 100%;  
+    width: 40px;  
+    
+}
+#content-box{
+    width: 1200px;
+    margin: auto;
+    
+    
+}
+   #reg-form{
+       width: 480px;
+       margin: auto;
+       background: #fff;
+
+       border-radius: 5px;
+       
+       
+   }    
+   h1{
+       color: #091e3f;
+       text-align: center;
+       font-family: Publico;
+       margin-top: 30px;
+       
+   }
+   .lab{
+       font-size: 15px;
+       color: #3c4858;
+      font-weight: bold;
+       font-family: 'Open Sans', sans-serif;
+       line-height: 30px;
+       margin-left: 70px;
+   }
+ .inpt{
+     width: 300px;
+     margin-left: 70px;
+     padding: 10px;
+     border: 1px solid rgb(156, 156, 156);
+     border-radius: 3px;    
+ }   
+ .btn{
+     background-color: blue;
+     padding: 8px;
+    color: #fff;
+    background: #0092ff;
+    border: 1px #0092ff;
+    width: 322px;
+    margin-left: 70px;
+    font-size: 18px;
+    border-radius: 2px;
+ }
+ .btn:hover{
+     background-color: blue;
+ }
+ .line_1{
+    
+     width: 140px;
+     height: 1px;
+     background: rgb(212, 211, 200);
+     margin: 10px;
+     margin-left: 70px;
+     float: left;
+ }
+ .line_2{
+    
+    width: 140px;
+    height: 1px;
+    background: rgb(212, 211, 200);
+    margin: 10px;
+    
+    float: left;
+}
+ .line_1 + p{
+    float: left;
+    margin-top: -4px;
+    color: #1f2d3d;
+ }
+ #google-sign{
+     width:300px;
+     height: 20px;
+     border:1px solid #4285f4;
+     margin-left: 70px;
+     padding: 10px;
+     
+ }
+ #apple-sign{
+    width:300px;
+    height: 20px;
+    border:1px solid #4285f4;
+    margin-left: 70px;
+    padding: 10px;
+    
+}
+ #clc{
+     clear: both;
+ }
+ #apple-sign img{
+    max-width: 100%;
+    width: 25px;
+    margin-left: 50px;
+ }
+ #google-sign img{
+       max-width: 100%;
+       width: 25px;
+       margin-left: 50px;
+
+ }
+
+ #apple-sign p{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+    color:#1f2d3d;
+    font-family: Roboto,sans-serif;
+ }
+ #google-sign   p{
+     text-align: center;
+     margin-top: -30px;
+     margin-bottom: 10px;
+     margin-left: 30px;
+     font-size: 17px;
+     color:#1f2d3d;
+     font-family: Roboto,sans-serif;
+     
+ }
+ .last{
+     font-size: 20px;
+     margin-top: 10px;
+     text-align: center;
+     color: lavender;
+ }
+ .last:hover{
+     color: rgb(179, 179, 221);
+ }
+ .inpt-img{
+    margin-bottom: -8px;
+    width: 23px;
+    margin-left: -40px;
+  
+    
+
+ }
+ 

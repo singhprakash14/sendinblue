@@ -1,0 +1,103 @@
+#main{
+    height: fit-content;
+    width: auto;
+    background-color: #ffd9d4;
+    padding-top: 65px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  #imgdiv > img {
+    width: 35%;
+    height: 50%;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-left: 72px;
+  }
+  #text-container {
+    margin-left: 85px;
+  }
+  .blueButton {
+    width: 250px;
+    height: 60px;
+    background-color: #0092ff;
+    border: 0px solid #0092ff;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 16px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  #text-container h2 {
+    color: #091e3f;
+    text-align: left;
+    width: 80%;
+    line-height: 50px;
+    font-size: 52px;
+    margin-bottom: 22px;
+  }
+  @media only screen and (min-width: 992px) {
+    #imgdiv {
+      display: flex;
+      flex-direction: row;
+      width: 95%;
+      margin: auto;
+      height: fit-content;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    #imgdiv {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+      height: fit-content;
+    }
+    #imgdiv > img {
+      width: 37%;
+      height: 240px;
+      border-radius: 50%;
+      padding-top: 20px;
+      padding-right: 20px;
+      margin-left: 29%;
+    }
+    h2 {
+      color: #091e3f;
+      text-align: center;
+      width: 80%;
+      line-height: 35px;
+      font-size: 35px;
+      margin-bottom: 22px;
+    }
+    .blueButton {
+      width: 250px;
+      height: 55px;
+      background-color: #0092ff;
+      border: 0px solid #0092ff;
+      border-radius: 30px;
+      margin-top: 60px;
+      margin-left: 16px;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+    }
+    #imgdiv > div > h2 + .blueButton {
+      margin-top: 10px;
+      margin-left: 15%;
+    }
+    #text-container {
+      margin-left: 85px;
+    }
+    #main{
+      width: auto;
+      background-color: #ffd9d4;
+      padding-top: 65px;
+      padding-bottom: 45px;
+    }
+  }
+  #imgdiv > div > h2 + button {
+    margin-top: 10px;
+    margin-left: 5px;
+  }

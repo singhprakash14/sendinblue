@@ -1,0 +1,129 @@
+#customer_box {
+    height: fit-content;
+    width: 88%;
+    background-color: #ffd201;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-right: 50px;
+    margin-top: -80px;
+    margin-left: -8px;
+  }
+  #review-container {
+    padding-left: 190px;
+    margin-top: 80px;
+  }
+  .heart {
+    font-size: 50px;
+    line-height: 52px;
+    color: #091e3f;
+    padding-right: 115px;
+    margin-bottom: 20px;
+    word-wrap: none;
+  }
+  .hoverIcon {
+    border-radius: 50%;
+    border: 1.5px solid #091e3f;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    margin-top: 52px;
+  }
+  .hoverIcon1 {
+    border-radius: 50%;
+    border: 1.5px solid #091e3f;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    background-color: #9e830d;
+    margin-top: 52px;
+  }
+  .heading_heart {
+    display: flex;
+    flex-direction: row;
+  }
+  .cust_text {
+    font-size: 24px;
+    line-height: 43px;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    word-wrap: break-word;
+    margin-top: 0px;
+  }
+  .cust_text > p {
+    color: #091e3f;
+  }
+  #image-container > img {
+    width: 300px;
+    height: 450px;
+    margin-top: 152px;
+    padding-left: 50px;
+    margin-left: 20%;
+    padding-right: 175px;
+  }
+  .company {
+    display: flex;
+    flex-direction: row;
+  }
+  .nameOfCustomer {
+    padding-left: 20px;
+  }
+  .company > img {
+    margin-top: 25px;
+    width: 57px;
+    height: 35px;
+  }
+  .company > div > p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: #091e3f;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 2px;
+  }
+  .company > div > p:last-child {
+    font-size: 15px;
+    color: #706f5e;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0px;
+  }
+  @media only screen and (max-width: 768px) {
+    .heading_heart {
+      display: flex;
+      flex-direction: column;
+    }
+    #review-container {
+      padding-left: 50px;
+    }
+    .heart {
+      padding-right: 50px;
+    }
+    #image-container > img {
+      margin-left: 0px;
+    }
+    #image-container {
+      margin-left: 30px;
+      padding-top: 150px;
+    }
+    #image-container > img {
+      width: 310px;
+      height: 570px;
+    }
+    .hoverIcon,
+    .hoverIcon1 {
+      margin-top: 20px;
+    }
+    .cust_text {
+      line-height: 32px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #customer_box {
+      display: flex;
+      flex-direction: column;
+      padding-top: 40px;
+    }
+    #image-container {
+      padding-top: 10px;
+    }
+  }

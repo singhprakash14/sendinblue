@@ -1,0 +1,236 @@
+#footer_main {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+
+  
+  /* footer1 */
+  @media screen and (max-width: 600px) {
+    /* footer1 */
+    .footer_firs {
+      width: 100%;
+    }
+    .footer_firs > img {
+      width: 250px;
+      margin-left: 100px;
+    }
+    .footer_fir1 {
+      width: 100%;
+      margin-left: 100px;
+    }
+  
+    .footer_fir1 > span > img {
+      width: 40px;
+      margin-right: 6px;
+    }
+    /* footer2 */
+    .footer_sec {
+      width: 110%;
+      margin-top: 50px;
+      border-bottom: 2px solid grey;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+    .sec1 > img {
+      width: 130px;
+      margin-left: 130px;
+    }
+    .sec2 > p:nth-child(1) {
+      width: 100%;
+      margin-right: 100px;
+      margin-top: 0px;
+      line-height: 22px;
+      font-size: 17px;
+      color: grey;
+    }
+    .sec2 > p:nth-child(2) {
+      color: rgb(9, 82, 138);
+      font-weight: bold;
+    }
+    /* .sec3 {
+      margin-right: 150px;
+    } */
+    .sec3 > h3 {
+      margin-top: 20px;
+      font-size: 21px;
+    }
+    .sec3 > p {
+      font-size: 19px;
+      color: grey;
+    }
+    .sec4 > h3 {
+      margin-top: 0px;
+    }
+    .sec4 > p {
+      font-size: 19px;
+      color: grey;
+    }
+    .sec5 {
+      margin-left: auto;
+    }
+    .sec5 > h3 {
+      margin-top: 0px;
+    }
+    .sec5 > p {
+      font-size: 19px;
+      color: grey;
+    }
+    /* footer third */
+  
+    .thir1 {
+      margin-left: 10px;
+      text-align: center;
+      color: grey;
+    }
+    .thir2 {
+      font-size: 17px;
+      color: grey;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .footer_firs {
+      width: 100%;
+      display: flex;
+    }
+    .footer_firs > img {
+      width: 170px;
+    }
+    .footer_fir1 {
+      margin-left: auto;
+    }
+    .footer_fir1 > span > img {
+      width: 40px;
+      margin-right: 6px;
+    }
+    /* footer2 */
+    .footer_sec {
+      width: 100%;
+      display: flex;
+      margin-top: 50px;
+      border-bottom: 2px solid grey;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+    .sec1 > img {
+      width: 100px;
+      margin-right: 40px;
+    }
+    .sec2 > p {
+      width: 170px;
+      margin-right: 100px;
+      margin-top: 0px;
+      line-height: 22px;
+    }
+    .sec21 {
+      color: rgb(0, 146, 255);
+    }
+    .sec3 {
+      margin-right: 150px;
+    }
+    .sec3 > h3 {
+      margin-top: 0px;
+    }
+    .sec3 > p {
+      margin-top: -5px;
+    }
+    .sec4 > h3 {
+      margin-top: 0px;
+    }
+    .sec4 > p {
+      margin-top: -5px;
+    }
+    .sec5 {
+      margin-left: auto;
+    }
+    .sec5 > h3 {
+      margin-top: 0px;
+    }
+    .sec5 > p {
+      margin-top: -5px;
+    }
+    /* footer third */
+    .footer_thir {
+      display: flex;
+    }
+    .thir1 {
+      margin-left: 10px;
+    }
+    .thir2 {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .footer_firs {
+      width: 100%;
+      display: flex;
+    }
+    .footer_firs > img {
+      width: 170px;
+    }
+    .footer_fir1 {
+      margin-left: auto;
+    }
+    .footer_fir1 > span > img {
+      width: 40px;
+      margin-right: 8px;
+    }
+    /* footer2 */
+    .footer_sec {
+      width: 100%;
+      display: flex;
+      margin-top: 50px;
+      border-bottom: 2px solid grey;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+    .sec1 > img {
+      width: 100px;
+      margin-right: 40px;
+    }
+    .sec2 > p {
+      width: 170px;
+      margin-right: 100px;
+      margin-top: 0px;
+      line-height: 22px;
+    }
+    .sec21 {
+      color: rgb(0, 146, 255);
+    }
+    .sec3 {
+      margin-right: 150px;
+    }
+    .sec3 > h3 {
+      margin-top: 0px;
+    }
+    .sec3 > p {
+      margin-top: -5px;
+    }
+    .sec4 > h3 {
+      margin-top: 0px;
+    }
+    .sec4 > p {
+      margin-top: -5px;
+    }
+    .sec5 {
+      margin-left: 200px;
+    }
+    .sec5 > h3 {
+      margin-top: 0px;
+    }
+    .sec5 > p {
+      margin-top: -5px;
+    }
+    /* footer third */
+    .footer_thir {
+      display: flex;
+    }
+    .thir1 {
+      margin-left: 10px;
+    }
+    .thir2 {
+      margin-left: auto;
+    }
+  }

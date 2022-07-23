@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+}
+@media screen and (max-width: 1300px) {
+  .hea_full1 {
+    width: 100%;
+    margin-top: -10px;
+    left: 0;
+  }
+  .header_img > img {
+    width: 200px;
+    margin: auto;
+  }
+  span .drop_on {
+    font-size: 22px;
+    color: grey;
+    padding-right: 30px;
+    position: relative;
+  }
+  .header_sec {
+    width: 100%;
+  }
+  .header_sec > span {
+    font-size: 17px;
+    color: grey;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header_sec > span > img {
+    width: 17px;
+    margin-top: 9px;
+    margin-left: 5px;
+    display: none;
+  }
+  .header_thir {
+    margin-left: auto;
+    font-size: 17px;
+    cursor: pointer;
+    display: none;
+  }
+  .conti_for {
+    width: 10%;
+    box-shadow: 7px 10px 10px rgb(238, 236, 236);
+    position: absolute;
+    margin-left: 1050px;
+    background-color: #fff;
+    display: none;
+  }
+  #second_id {
+    width: 30%;
+    padding: 0px 20px;
+    box-shadow: 7px 10px 10px rgb(238, 236, 236);
+    cursor: pointer;
+    display: none;
+  }
+  .head_sec1 {
+    display: flex;
+    margin-right: 45px;
+  }
+  .head_sec1 > img {
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .head_sec2 > p {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .head_sec1 > img {
+    display: none;
+  }
+  .head_sec1 > h2 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hea_full1 {
+    background-color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0px 2px 9px rgb(161, 157, 157);
+  }
+  #first_id,
+  #second_id,
+  #thir_id,
+  #fourth_id {
+    margin-top: 61px;
+  }
+  #header_main {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+  }
+  .header_img > img {
+    width: 150px;
+    margin-right: 100px;
+  }
+  /* header_sec */
+  .header_sec > span {
+    font-size: 19px;
+    color: grey;
+    padding-right: 30px;
+  }
+  span .drop_on {
+    font-size: 19px;
+    color: grey;
+    padding-right: 30px;
+    position: relative;
+  }
+  .header_sec > span > img {
+    width: 10px;
+    margin-left: 5px;
+  }
+  /* header_thir */
+  .header_thir {
+    margin-left: auto;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .header_thir > span {
+    padding-right: 10px;
+    font-weight: 700;
+  }
+  .header_thir > span > img {
+    width: 10px;
+    margin-left: 2px;
+  }
+  .header_thir > button {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(9, 132, 226);
+    cursor: pointer;
+  }
+  /* drop down */
+  .first_con {
+    width: 20%;
+    height: 100px;
+    margin-left: 320px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    box-shadow: 7px 10px 10px rgb(238, 236, 236);
+    cursor: pointer;
+    background-color: #fff;
+    position: absolute;
+    display: none;
+  }
+
+  #second_id {
+    width: 45%;
+    padding: 0px 20px;
+    box-shadow: 7px 10px 10px rgb(238, 236, 236);
+    cursor: pointer;
+    position: absolute;
+    margin-left: 300px;
+    background-color: #fff;
+    display: none;
+  }
+  .head_sec1 {
+    display: flex;
+    margin-right: 30px;
+  }
+  .head_sec1 > img {
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .head_sec2 > p {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .sec_ma {
+    margin-right: 45px;
+  }
+  .head_thie {
+    width: 13%;
+    box-shadow: 7px 10px 10px rgb(238, 236, 236);
+    padding: 8px 30px;
+    position: absolute;
+    margin-left: 750px;
+    background-color: #fff;
+    display: none;
+  }
+  .head_thie > p {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .conti_for {
+    width: 10%;
+    box-shadow: 7px 10px 10px rgb(238, 236, 236);
+    position: absolute;
+    margin-left: 1050px;
+    background-color: #fff;
+    display: none;
+  }
+  .con_4 {
+    display: flex;
+    align-items: center;
+  }
+  .con_4 > img {
+    width: 20px;
+    height: 18px;
+    margin-right: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  .con_4 > p {
+    font-size: 18px;
+    cursor: pointer;
+  }
+}

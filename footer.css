@@ -175,7 +175,7 @@
     }
     .footer_fir1 > span > img {
       width: 40px;
-      margin-right: 6px;
+      margin-right: 8px;
     }
     /* footer2 */
     .footer_sec {
@@ -215,7 +215,7 @@
       margin-top: -5px;
     }
     .sec5 {
-      margin-left: auto;
+      margin-left: 200px;
     }
     .sec5 > h3 {
       margin-top: 0px;

@@ -374,8 +374,8 @@
       margin-top: 10%;
       margin: auto;
     }
-    growfaster_image {
-      padding-left: 0px;
+    .growfaster_image {
+      padding-left: 1px;
     }
     #intro {
       display: grid;
